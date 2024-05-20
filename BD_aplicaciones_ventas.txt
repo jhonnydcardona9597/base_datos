@@ -1,0 +1,68 @@
+create table localidad(
+  pk_id_localidad bigint primary key autoincrement not null,
+  descripcion varchar(100) not null);
+
+create table postal(
+  pk_id_postal bigint primary key autoincrement not null,
+  descripcion varchar(100) not null);
+
+create table Zona(
+  pk_id_Zona bigint primary key autoincrement not null,
+  descripcion varchar(100) not null);
+
+create table tipo_producto(
+  pk_id_tipo_producto bigint primary key autoincrement not null,
+  descripcion varchar(100) not null);
+
+create table canal_venta(
+  pk_id_canal_venta bigint primary key autoincrement not null,
+  descripcion varchar(100) not null);
+
+create table prioridad(
+  pk_id_prioridad bigint primary key autoincrement not null,
+  descripcion varchar(100) not null);
+
+create table pais(
+  pk_id_pais bigint primary key autoincrement not null,
+  descripcion varchar(100) not null,
+fk_id_zona varchar(10) not null,
+constraint fk_id_zona_1 foreign key(fk_id_zona) references zona (pk_id_zona)
+);
+
+create table pedido(
+  pk_idpedido bigint primary key not null,
+  fecha_pedido date not null,
+  fecha_envio date not null,
+  unidades int not null,
+  precio_unitario decimal not null,
+  coste_unitario decimal not null,
+  importe_venta_total decimal not null,
+  importe_coste_total decimal not null,
+fk_id_cliente varchar(10) not null,
+fk_id_pais int not null,
+fk_id_tipo_producto int not null,
+fk_id_canal_venta int not null,
+fk_id_prioridad int not null,
+constraint fk_id_cliente_1 foreign key(fk_id_cliente) references cliente (pk_id_cliente),
+constraint fk_id_pais_1 foreign key(fk_id_pais) references pais (pk_id_pais),
+constraint fk_id_tipo_producto_1 foreign key(fk_id_tipo_producto) references localidad (pk_id_tipo_producto),
+constraint fk_id_canal_venta_1 foreign key(fk_id_canal_venta) references canal_venta (pk_id_canal_venta),
+constraint fk_id_prioridad_1 foreign key(fk_id_prioridad) references prioridad (pk_id_prioridad));
+
+
+create table cliente(
+  pk_idcliente varchar(10) primary key not null,
+  nombre varchar(200) not null,
+  fecha_nacimiento date not null,
+  direccion varchar(200),
+  telefono varchar(13),
+  correo varchar(10) not null,
+  grupo varchar(2) not null,
+fecha_alta date not null,
+fk_id_localidad int not null,
+fk_id_codigo_postal int not null,
+constraint fk_id_localidad_1 foreign key(fk_id_localidad) references localidad (pk_id_localidad),
+constraint fk_id_postal_1 foreign key(fk_id_postal) references postal (pk_id_postal));
+
+
+
