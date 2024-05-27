@@ -2337,4 +2337,1142 @@ fk_id_postal)
 VALUES
 ('C1478', 'Julio Corominas' , '1977-12-13' , '93 East Longbranch Dr.' , '(583) 883-0821' , 'wojciech@live.com' , 'E' , '2012-04-30', 457 , 128);
 
+
 select * from cliente;
+
+
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('Australia y Oceanía');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('Australia y Oceanía');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Australia y Oceanía');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Asia');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+insert into zona (descripcion) values ('África');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Europa');
+insert into zona (descripcion) values ('Centroamérica y Caribe');
+
+select * from zona;
+
+
+
+insert into pais (descripcion) values ('Azerbaijan');
+insert into pais (descripcion) values ('Myanmar');
+insert into pais (descripcion) values ('Mali');
+insert into pais (descripcion) values ('Vietnam');
+insert into pais (descripcion) values ('El Salvador');
+insert into pais (descripcion) values ('East Timor');
+insert into pais (descripcion) values ('Austria');
+insert into pais (descripcion) values ('Angola');
+insert into pais (descripcion) values ('Cape Verde');
+insert into pais (descripcion) values ('Afghanistan');
+insert into pais (descripcion) values ('Germany');
+insert into pais (descripcion) values ('Bulgaria');
+insert into pais (descripcion) values ('Laos');
+insert into pais (descripcion) values ('Liberia');
+insert into pais (descripcion) values ('Qatar');
+insert into pais (descripcion) values ('Nigeria');
+insert into pais (descripcion) values ('Tajikistan');
+insert into pais (descripcion) values ('Czech Republic');
+insert into pais (descripcion) values ('Uzbekistan');
+insert into pais (descripcion) values ('Kuwait');
+insert into pais (descripcion) values ('North Korea');
+insert into pais (descripcion) values ('Benin');
+insert into pais (descripcion) values ('Bosnia and Herzegovina');
+insert into pais (descripcion) values ('Cuba');
+insert into pais (descripcion) values ('Lesotho');
+insert into pais (descripcion) values ('India');
+insert into pais (descripcion) values ('Dominica');
+insert into pais (descripcion) values ('Guinea');
+insert into pais (descripcion) values ('Niger');
+insert into pais (descripcion) values ('Mongolia');
+insert into pais (descripcion) values ('Albania');
+insert into pais (descripcion) values ('Greece');
+insert into pais (descripcion) values ('Norway');
+insert into pais (descripcion) values ('Estonia');
+insert into pais (descripcion) values ('Oman');
+insert into pais (descripcion) values ('Jamaica');
+insert into pais (descripcion) values ('Turkmenistan');
+insert into pais (descripcion) values ('Swaziland');
+insert into pais (descripcion) values ('New Zealand');
+insert into pais (descripcion) values ('Togo');
+insert into pais (descripcion) values ('Turkey');
+insert into pais (descripcion) values ('Madagascar');
+insert into pais (descripcion) values ('Kazakhstan');
+insert into pais (descripcion) values ('Georgia');
+insert into pais (descripcion) values ('Vatican City');
+insert into pais (descripcion) values ('Dominican Republic');
+insert into pais (descripcion) values ('Botswana');
+insert into pais (descripcion) values ('Saint Kitts and Nevis ');
+insert into pais (descripcion) values ('The Bahamas');
+insert into pais (descripcion) values ('Bahrain');
+insert into pais (descripcion) values ('Spain');
+insert into pais (descripcion) values ('Belize');
+
+
+insert into tipo_producto (descripcion) values ('Frutas');
+insert into tipo_producto (descripcion) values ('Snacks');
+insert into tipo_producto (descripcion) values ('Verduras');
+insert into tipo_producto (descripcion) values ('Ropa');
+insert into tipo_producto (descripcion) values ('Cosméticos');
+insert into tipo_producto (descripcion) values ('Cereales');
+insert into tipo_producto (descripcion) values ('Cárnicos');
+insert into tipo_producto (descripcion) values ('Bebida');
+insert into tipo_producto (descripcion) values ('Alimento infantil');
+insert into tipo_producto (descripcion) values ('Material de oficina');
+insert into tipo_producto (descripcion) values ('Cuidado personal');
+insert into tipo_producto (descripcion) values ('Doméstico');
+
+insert into canal_venta (descripcion) values ('Offline');
+insert into canal_venta (descripcion) values ('Online');
+
+insert into prioridad (descripcion) values ('Crítica');
+insert into prioridad (descripcion) values ('Media');
+insert into prioridad (descripcion) values ('Alta');
+insert into prioridad (descripcion) values ('Baja');
+
+
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(122917544,'2021-10-20','2021-11-17',2888,933,692,692,2694504,'C1001',1,1,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(139070880,'2021-07-26','2021-08-04',3019,15258,9744,46063902,46063902,'C1002',2,2,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(141818320,'2021-11-23','2021-11-29',6047,15406,9093,93160082,93160082,'C1003',3,3,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(131271874,'2022-09-23','2022-09-27',5120,10928,3584,55951360,55951360,'C1004',4,4,2,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(115460574,'2022-11-02','2022-11-19',6205,10928,3584,67808240,67808240,'C1005',5,4,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(142273652,'2021-04-23','2021-05-16',790,43720,26333,34538800,34538800,'C1006',6,5,2,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(149967515,'2021-12-01','2021-12-27',7575,43720,26333,331179000,331179000,'C1007',7,5,2,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(126011312,'2021-08-22','2021-09-18',8402,20570,11711,172829140,172829140,'C1008',8,6,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(108907830,'2021-10-27','2021-10-31',7102,933,692,6626166,6626166,'C1009',9,1,2,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(137319076,'2022-08-01','2022-09-20',4621,42189,36469,194955369,194955369,'C1010',10,7,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(136167657,'2020-06-08','2020-06-21',3890,4745,3179,18458050,18458050,'C1011',11,8,2,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(122546327,'2020-05-26','2020-06-18',3036,43720,26333,132733920,132733920,'C1012',12,5,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(111432111,'2021-01-22','2021-02-14',4093,933,692,3818769,3818769,'C1013',13,1,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(121239984,'2021-12-15','2022-01-13',6460,4745,3179,30652700,30652700,'C1014',14,8,2,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(134709823,'2020-10-29','2020-11-25',2485,20570,11711,51116450,51116450,'C1015',15,6,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(127702176,'2021-03-20','2021-05-02',8767,20570,11711,180337190,180337190,'C1016',16,6,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(100884807,'2020-04-01','2020-04-30',2911,25528,15942,74312008,74312008,'C1017',17,9,2,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(111818778,'2020-07-30','2020-08-23',8516,4745,3179,40408420,40408420,'C1018',6,8,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(106102883,'2020-01-29','2020-02-28',7056,65121,52496,459493776,459493776,'C1019',18,10,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(149803578,'2022-08-31','2022-09-07',9063,8173,5667,74071899,74071899,'C1020',19,11,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(145443809,'2021-07-14','2021-07-26',8910,15258,9744,135948780,135948780,'C1021',20,2,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(116113746,'2020-08-18','2020-09-01',9493,4745,3179,45044285,45044285,'C1022',11,8,2,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(141799008,'2022-02-07','2022-03-28',333,65121,52496,21685293,21685293,'C1023',21,10,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(141176307,'2022-08-02','2022-09-20',6061,25528,15942,154725208,154725208,'C1024',22,9,2,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(138231027,'2021-01-07','2021-01-28',4487,933,692,4186371,4186371,'C1025',23,1,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(106213176,'2022-06-13','2022-07-15',9694,20570,11711,199405580,199405580,'C1026',24,6,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(117223966,'2021-02-14','2021-02-25',8031,15406,9093,123725586,123725586,'C1027',14,3,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(118491685,'2022-11-04','2022-12-14',3178,66827,50254,212376206,212376206,'C1028',14,12,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(120351636,'2020-02-03','2020-02-26',3578,15258,9744,54593124,54593124,'C1029',25,2,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(125325524,'2021-06-20','2021-06-24',5463,65121,52496,355756023,355756023,'C1030',18,10,2,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(128816258,'2020-07-11','2020-07-12',8448,4745,3179,40085760,40085760,'C1031',26,8,2,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(149069297,'2021-03-04','2021-03-22',1772,65121,52496,115394412,115394412,'C1032',27,10,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(134441602,'2022-02-16','2022-04-05',3112,20570,11711,64013840,64013840,'C1033',28,6,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(145683276,'2022-05-21','2022-06-18',9774,8173,5667,79882902,79882902,'C1034',29,11,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(111265599,'2022-08-07','2022-09-07',4818,65121,52496,313752978,313752978,'C1035',30,10,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(124344480,'2022-04-25','2022-05-16',5150,20570,11711,105935500,105935500,'C1036',31,6,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(131419074,'2021-05-25','2021-07-03',8679,66827,50254,579991533,579991533,'C1037',32,12,2,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(112408006,'2021-10-16','2021-10-23',2882,20570,11711,59282740,59282740,'C1038',33,6,2,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(113968408,'2020-06-03','2020-06-26',4639,15258,9744,70781862,70781862,'C1039',34,2,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(106946170,'2021-06-23','2021-07-27',6603,20570,11711,135823710,135823710,'C1040',35,6,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(144708669,'2021-04-04','2021-05-05',1366,4745,3179,6481670,6481670,'C1116',32,8,2,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(130241477,'2020-08-11','2020-08-23',202,933,692,188466,188466,'C1117',27,1,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(136828553,'2021-07-30','2021-09-02',9464,15258,9744,144401712,144401712,'C1118',36,2,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(111651837,'2021-04-19','2021-05-25',9115,10928,3584,99608720,99608720,'C1119',23,4,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(122673785,'2021-04-25','2021-04-29',754,10928,3584,8239712,8239712,'C1120',37,4,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(116365230,'2021-08-10','2021-08-20',3912,43720,26333,171032640,171032640,'C1121',38,5,2,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(134189260,'2022-05-15','2022-05-24',8439,20570,11711,173590230,173590230,'C1122',39,6,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(112364661,'2021-10-01','2021-11-09',55,20570,11711,1131350,1131350,'C1123',40,6,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(150160205,'2021-11-15','2021-11-22',4596,4745,3179,21808020,21808020,'C1124',41,8,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(148510110,'2020-04-09','2020-05-14',6297,8173,5667,51465381,51465381,'C1125',42,11,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(126296269,'2020-12-03','2021-01-12',2728,66827,50254,182304056,182304056,'C1126',43,12,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(146849286,'2021-01-03','2021-01-23',4822,4745,3179,22880390,22880390,'C1127',44,8,2,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(114152514,'2021-02-09','2021-03-21',9121,20570,11711,187618970,187618970,'C1128',45,6,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(135033404,'2022-07-21','2022-07-26',8240,42189,36469,347637360,347637360,'C1129',37,7,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(106919562,'2022-01-07','2022-02-25',8729,10928,3584,95390512,95390512,'C1130',46,4,1,3);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(128239905,'2021-01-29','2021-03-10',7893,20570,11711,162359010,162359010,'C1131',47,6,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(148330724,'2020-01-17','2020-02-07',3212,42189,36469,135511068,135511068,'C1132',48,7,2,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(121176040,'2022-07-08','2022-07-23',7538,4745,3179,35767810,35767810,'C1133',49,8,1,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(118465077,'2020-07-11','2020-07-16',5304,65121,52496,345401784,345401784,'C1134',50,10,1,2);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(147449672,'2020-09-13','2020-10-26',2489,10928,3584,27199792,27199792,'C1135',51,4,1,1);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(115831792,'2021-05-19','2021-06-09',6056,4745,3179,28735720,28735720,'C1136',33,8,2,4);
+INSERT INTO ventasdb.pedido
+(pk_id_pedido,
+fecha_pedido,
+fecha_envio,
+unidades,
+precio_unitario,
+coste_unitario,
+importe_venta_total,
+importe_coste_total,
+fk_id_cliente,
+fk_id_pais,
+fk_id_tipo_producto,
+fk_id_canal_venta,
+fk_id_prioridad)
+VALUES
+(138554179,'2021-12-03','2021-12-06',115,933,692,107295,107295,'C1137',52,1,1,3);
