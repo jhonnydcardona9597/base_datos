@@ -37,8 +37,8 @@ create table cliente(
   nombre varchar(200) not null,
   fecha_nacimiento date not null,
   direccion varchar(200),
-  telefono varchar(13),
-  correo varchar(10) not null,
+  telefono varchar(15),
+  correo varchar(200) not null,
   grupo varchar(2) not null,
 fecha_alta date not null,
 fk_id_localidad int not null,
@@ -672,3 +672,1671 @@ insert into postal (descripcion) values ('FL 33020');
 
 select * from postal;
 
+
+
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1001', 'Leandra Anna Malo Alba' , '1984-08-12' , '7943 S. Fifth Street' , '(598) 451-5865' , 'uraeus@mac.com' , 'A' , '2012-01-19', 1 , 1);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1002', 'Severo Granados Iglesia' , '1986-08-12' , '77 Lyme Street' , '(869) 771-1487' , 'bhima@me.com' , 'E' , '2005-03-22', 2 , 2);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1003', 'Lucho Andreu Amat' , '1990-04-16' , '9448 Fairfield St.' , '(246) 245-7306' , 'psichel@sbcglobal.net' , 'E' , '2007-09-15', 3 , 3);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1004', 'Matías Mauricio Castillo Barrera' , '1996-12-02' , '8143 College St.' , '(707) 933-2513' , 'tbeck@optonline.net' , 'E' , '2011-12-07', 4 , 4);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1005', 'Mauricio Guijarro Castelló' , '1984-05-14' , '9893 W. Vale Ave.' , '(612) 325-0216' , 'eegsa@yahoo.ca' , 'D' , '2008-06-28', 5 , 5);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1006', 'Isaura Leyre Avilés Pelayo' , '1987-04-18' , '8094 Albany Drive' , '(992) 564-5230' , 'barlow@verizon.net' , 'E' , '2008-04-26', 6 , 6);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1007', 'Soraya Morera-Lago' , '1990-11-27' , '9001 Creek Street' , '(651) 544-1246' , 'wkrebs@me.com' , 'A' , '2019-10-08', 7 , 7);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1008', 'Victoriano Tapia-Cabanillas' , '1981-03-06' , '57 Green Drive' , '(851) 782-6044' , 'dleconte@outlook.com' , 'C' , '2009-08-16', 8 , 8);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1009', 'Nidia Saez Campoy' , '1980-04-28' , '86 Surrey St.' , '(265) 609-6654' , 'flakeg@verizon.net' , 'B' , '2013-01-05', 9 , 9);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1010', 'Teófila Villanueva Molina' , '1987-01-04' , '8728 Boston Street' , '(305) 491-4988' , 'slaff@icloud.com' , 'E' , '2007-12-29', 10 , 10);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1011', 'Trini de Alberdi' , '1990-12-04' , '45 Heritage Ave.' , '(561) 649-7485' , 'uncle@hotmail.com' , 'B' , '2013-08-27', 11 , 11);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1012', 'Dani Baena' , '1977-10-20' , '9334 Hillside Street' , '(966) 735-9451' , 'vsprintf@hotmail.com' , 'C' , '2012-02-24', 12 , 12);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1013', 'Angelina de Arregui' , '2000-02-21' , '611 Academy Street' , '(711) 282-2848' , 'chinthaka@yahoo.ca' , 'D' , '2014-12-24', 13 , 13);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1014', 'Samuel de Carranza' , '1999-05-16' , '7201 Mill Street' , '(337) 397-0627' , 'ntegrity@optonline.net' , 'C' , '2016-10-29', 14 , 14);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1015', 'Jacinta Montenegro Garcés' , '1994-03-13' , '59 Ridgewood Ave.' , '(969) 383-4277' , 'yangyan@yahoo.ca' , 'D' , '2007-04-06', 15 , 15);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1016', 'Lisandro Delgado Nadal' , '1980-04-18' , '270 West Green Lake St.' , '(748) 495-1748' , 'ilyaz@me.com' , 'B' , '2019-11-10', 16 , 16);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1017', 'Samanta Manjón Godoy' , '1980-03-03' , '9481 S. Chestnut St.' , '(494) 813-5651' , 'njpayne@hotmail.com' , 'C' , '2017-01-18', 17 , 17);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1018', 'Albano Teodosio Cañete Rosa' , '1981-04-04' , '7 N. Annadale Street' , '(779) 217-3175' , 'ralamosm@gmail.com' , 'C' , '2010-05-12', 18 , 18);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1019', 'Abel Villanueva' , '1988-06-12' , '88 Pheasant Rd.' , '(904) 204-2255' , 'bartak@sbcglobal.net' , 'A' , '2012-02-24', 19 , 19);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1020', 'Bienvenida Pulido Cózar' , '1994-01-21' , '8 Galvin Street' , '(932) 307-3409' , 'improv@me.com' , 'D' , '2016-05-16', 20 , 20);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1021', 'Patricio Manzano Pomares' , '1979-07-01' , '9 Marconi Road' , '(993) 960-7653' , 'arnold@live.com' , 'D' , '2018-02-16', 21 , 21);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1022', 'Modesto de Casares' , '1975-12-13' , '8842 Old Van Dyke Ave.' , '(611) 927-0572' , 'ismail@comcast.net' , 'D' , '2019-02-26', 22 , 22);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1023', 'Berto del Morales' , '1987-10-30' , '471 S. Cambridge Drive' , '(283) 384-7846' , 'wilsonpm@aol.com' , 'A' , '2005-02-19', 23 , 23);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1024', 'Nuria Daniela Jáuregui Tejero' , '1979-07-02' , '9 Military Dr.' , '(677) 875-1069' , 'barjam@icloud.com' , 'E' , '2014-04-02', 24 , 24);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1025', 'Anastasia Pedrero Solera' , '1986-08-29' , '8388 Pheasant Street' , '(886) 929-9282' , 'michiel@msn.com' , 'B' , '2012-09-07', 25 , 25);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1026', 'Purificación Salomé Ferrán Valero' , '1984-09-29' , '221 Dogwood Dr.' , '(596) 660-5408' , 'gamma@hotmail.com' , 'A' , '2010-07-02', 26 , 26);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1027', 'Melania Cobos Lozano' , '1989-04-15' , '911 Charles St.' , '(768) 242-5793' , 'dhrakar@live.com' , 'C' , '2019-05-08', 27 , 27);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1028', 'Evangelina Font Lago' , '1978-03-26' , '176 Henry Smith Ave.' , '(483) 388-3044' , 'themer@icloud.com' , 'C' , '2013-11-20', 28 , 28);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1029', 'Otilia Mercader Jimenez' , '1986-06-21' , '323 1st St.' , '(525) 814-4351' , 'leocharre@me.com' , 'C' , '2016-11-13', 29 , 29);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1030', 'Nadia Reyes-Bosch' , '1997-03-14' , '8127 Pawnee Lane' , '(872) 458-4785' , 'kewley@icloud.com' , 'B' , '2013-05-28', 30 , 30);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1031', 'Mireia Córdoba Pi' , '1993-10-21' , '7813 Helen Ave.' , '(600) 318-8808' , 'murdocj@mac.com' , 'A' , '2006-01-11', 31 , 31);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1032', 'Melisa Rueda Rosado' , '1970-09-28' , '353 Canterbury Dr.' , '(437) 406-2974' , 'webinc@msn.com' , 'B' , '2017-03-30', 32 , 32);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1033', 'Trini Sanabria-Frías' , '1989-05-22' , '61 Addison Dr.' , '(615) 712-3381' , 'mrsam@yahoo.ca' , 'D' , '2017-01-19', 33 , 33);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1034', 'Lucía Manola Briones Jove' , '1993-11-28' , '810 West Mill St.' , '(651) 742-1141' , 'sassen@aol.com' , 'B' , '2015-02-07', 34 , 34);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1035', 'Natalio Pereira Barrio' , '1970-09-19' , '51 Mayfair Court' , '(517) 690-8580' , 'emmanuel@att.net' , 'D' , '2007-01-11', 35 , 35);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1036', 'Nerea Alcalde Solé' , '1984-02-03' , '840 Oak Meadow Ave.' , '(616) 766-2111' , 'naoya@mac.com' , 'B' , '2006-08-17', 36 , 36);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1037', 'Gracia Goicoechea Alba' , '1980-12-10' , '257 Pheasant Drive' , '(685) 726-6159' , 'slanglois@hotmail.com' , 'E' , '2021-03-23', 37 , 37);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1038', 'Toño Hidalgo Blázquez' , '1988-11-24' , '30 N. Park Avenue' , '(737) 772-3449' , 'improv@comcast.net' , 'B' , '2009-09-07', 38 , 38);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1039', 'Cándida Sedano Jiménez' , '1981-04-16' , '850 School St.' , '(876) 612-6879' , 'noneme@me.com' , 'E' , '2011-05-14', 39 , 39);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1040', 'Eutimio Barreda Cobos' , '1999-05-09' , '59 Atlantic Ave.' , '(669) 791-3350' , 'majordick@yahoo.com' , 'C' , '2009-01-05', 40 , 40);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1116', 'Celia Verdú' , '1990-08-09' , '24 Rock Maple Lane' , '(701) 212-8508' , 'hauma@gmail.com' , 'D' , '2009-06-20', 116 , 41);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1117', 'Espiridión del Viñas' , '1983-08-19' , '376 South Griffin Street' , '(714) 278-0966' , 'godeke@yahoo.ca' , 'E' , '2020-04-11', 117 , 42);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1118', 'Melania Lobato-Mena' , '1983-04-01' , '7172 Halifax St.' , '(523) 677-7026' , 'jdhedden@mac.com' , 'D' , '2020-11-20', 118 , 43);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1119', 'Sosimo Roig Bayo' , '1988-04-26' , '9530 Homewood St.' , '(615) 522-3616' , 'tbeck@gmail.com' , 'A' , '2011-04-10', 119 , 44);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1120', 'Abel Carrasco-Belda' , '1978-08-03' , '3 Sunset Street' , '(497) 402-3196' , 'bryanw@outlook.com' , 'B' , '2012-03-01', 120 , 45);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1121', 'Alicia Celestina Ibáñez Santana' , '1989-11-26' , '611 Linda Rd.' , '(624) 360-5381' , 'draper@me.com' , 'A' , '2020-08-16', 121 , 46);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1122', 'Conrado Torre' , '1993-08-10' , '7088 South Woodland St.' , '(417) 559-0451' , 'anicolao@optonline.net' , 'D' , '2012-01-08', 122 , 47);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1123', 'Leoncio Pombo Nadal' , '1971-05-29' , '78 Hamilton St.' , '(650) 230-0049' , 'mxiao@comcast.net' , 'C' , '2005-11-29', 123 , 48);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1124', 'Marcia Tomas' , '1995-11-14' , '7576 S. Prince Ave.' , '(863) 238-8964' , 'mleary@yahoo.ca' , 'E' , '2008-03-30', 124 , 49);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1125', 'Aurelia del Ocaña' , '1972-09-22' , '8678 Glen Eagles Rd.' , '(340) 944-7011' , 'louise@comcast.net' , 'B' , '2015-12-14', 123 , 50);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1126', 'Porfirio Cases Fabregat' , '1978-12-12' , '7487 College Rd.' , '(388) 447-0349' , 'solomon@gmail.com' , 'A' , '2011-10-10', 125 , 51);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1127', 'Maristela Mármol' , '1999-10-15' , '8 Westminster Ave.' , '(562) 364-8454' , 'dgatwood@live.com' , 'C' , '2011-11-18', 126 , 52);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1128', 'Leticia Azorin Cortina' , '1999-09-22' , '92 Brickell Drive' , '(332) 349-8146' , 'augusto@outlook.com' , 'D' , '2007-06-26', 127 , 53);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1129', 'Régulo de Sacristán' , '1975-08-20' , '503 Delaware Street' , '(286) 718-4373' , 'rafasgj@msn.com' , 'C' , '2020-11-11', 128 , 54);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1130', 'Esteban del Múñiz' , '1973-09-03' , '34 Anderson Ave.' , '(397) 693-0198' , 'solomon@yahoo.ca' , 'E' , '2009-01-24', 123 , 55);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1131', 'Trinidad Exposito Abella' , '1997-03-18' , '8388 Water St.' , '(874) 698-3563' , 'kildjean@aol.com' , 'C' , '2013-12-18', 129 , 56);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1132', 'Pánfilo Ortiz Pardo' , '1974-03-17' , '373 Brickyard Avenue' , '(633) 872-7554' , 'andersbr@att.net' , 'E' , '2018-06-05', 130 , 57);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1133', 'Glauco Llorens Álvarez' , '1987-01-05' , '834 Yukon Lane' , '(799) 691-3758' , 'moonlapse@sbcglobal.net' , 'A' , '2010-08-30', 131 , 58);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1134', 'Susanita Zaragoza Higueras' , '1970-03-01' , '8324 South St.' , '(625) 240-8609' , 'schwaang@mac.com' , 'D' , '2007-09-22', 132 , 59);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1135', 'Ileana Asunción Beltran Samper' , '1997-12-28' , '8 White Ave.' , '(677) 815-4415' , 'geekoid@yahoo.ca' , 'D' , '2009-11-13', 129 , 60);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1136', 'Chus Merino Casas' , '1971-12-11' , '907 Inverness Dr.' , '(368) 227-4620' , 'plover@aol.com' , 'E' , '2011-06-11', 133 , 61);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1137', 'Carmina Cervera' , '1979-04-18' , '12 Cypress Avenue' , '(930) 420-2085' , 'jhardin@hotmail.com' , 'D' , '2007-08-05', 134 , 62);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1138', 'Curro Coello Izaguirre' , '1972-12-25' , '7313 Bohemia Street' , '(883) 797-3367' , 'jdray@hotmail.com' , 'A' , '2012-10-11', 135 , 63);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1139', 'Mario Roldán' , '1977-05-01' , '8518 Hilldale Lane' , '(616) 916-4936' , 'euice@outlook.com' , 'A' , '2019-04-29', 136 , 64);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1140', 'Jesusa Fuentes' , '1999-01-06' , '190 Sierra St.' , '(406) 344-3322' , 'camenisch@yahoo.ca' , 'C' , '2008-07-04', 137 , 65);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1141', 'Óscar Dominguez Mayol' , '1973-12-20' , '95 Studebaker Street' , '(323) 771-5959' , 'lamky@hotmail.com' , 'A' , '2019-05-19', 138 , 66);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1142', 'Angelino Contreras Pi' , '1986-09-28' , '1 Highland Ave.' , '(898) 732-6602' , 'alastair@att.net' , 'E' , '2015-12-03', 128 , 67);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1143', 'Rafa Camino Perelló' , '1994-10-28' , '5 West Henry Smith Street' , '(551) 404-1539' , 'british@comcast.net' , 'E' , '2014-07-06', 139 , 68);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1144', 'Aura Vidal-Roma' , '1987-11-03' , '940 E. Primrose Ave.' , '(488) 349-4237' , 'rddesign@icloud.com' , 'A' , '2013-09-19', 140 , 69);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1145', 'Lara Jordana Ballester Lladó' , '1974-08-13' , '8304 Van Dyke Avenue' , '(296) 444-2189' , 'heckerman@me.com' , 'B' , '2005-02-18', 116 , 70);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1146', 'Aníbal Castelló Sarabia' , '1992-03-04' , '86 Bradford Rd.' , '(988) 961-4637' , 'rasca@verizon.net' , 'B' , '2006-06-18', 139 , 71);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1147', 'Adriana Higueras Ribes' , '1980-05-07' , '3 Jefferson Dr.' , '(486) 549-5020' , 'willg@sbcglobal.net' , 'E' , '2020-05-30', 141 , 72);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1148', 'Ernesto Cuadrado Mesa' , '1987-03-14' , '79 Rocky River Ave.' , '(868) 892-8961' , 'bryam@verizon.net' , 'E' , '2012-04-28', 142 , 73);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1149', 'Estela Ponce-Losada' , '1997-01-24' , '38 Johnson St.' , '(473) 875-0023' , 'padme@hotmail.com' , 'B' , '2019-12-20', 132 , 74);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1150', 'Luis Miguel del Tapia' , '1971-09-05' , '7652 West Wakehurst Drive' , '(700) 958-6128' , 'damian@hotmail.com' , 'B' , '2013-02-26', 143 , 75);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1151', 'Elpidio Agullo Tejero' , '1988-08-02' , '7075 Lake Forest Rd.' , '(696) 679-7702' , 'tangsh@me.com' , 'A' , '2020-12-28', 144 , 76);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1152', 'María Carmen Ródenas Acosta' , '1970-09-26' , '619 Pleasant St.' , '(250) 248-4300' , 'yamla@outlook.com' , 'C' , '2011-08-04', 145 , 77);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1153', 'Lucas Vendrell Valverde' , '1987-12-11' , '8026 New Saddle St.' , '(834) 508-9490' , 'rbarreira@optonline.net' , 'E' , '2010-02-08', 135 , 78);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1154', 'Gerardo Tomé Real' , '1997-06-05' , '275 Rock Maple Avenue' , '(503) 283-5457' , 'jrifkin@verizon.net' , 'B' , '2005-03-07', 118 , 79);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1155', 'Elías Sacristán Vázquez' , '1998-01-31' , '404 Railroad St.' , '(461) 976-3596' , 'dmouse@sbcglobal.net' , 'B' , '2013-03-10', 146 , 80);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1156', 'Victoriano Valencia Coloma' , '1998-06-05' , '441 Court Dr.' , '(398) 272-4739' , 'tubajon@comcast.net' , 'E' , '2006-02-07', 147 , 81);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1157', 'Vera Ribes-Cases' , '1996-10-11' , '9 South Theatre Ave.' , '(279) 586-2100' , 'tjensen@att.net' , 'B' , '2011-09-08', 148 , 82);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1158', 'Ligia Moya Calleja' , '1980-09-29' , '674 Van Dyke Drive' , '(988) 433-7129' , 'tristan@live.com' , 'B' , '2011-05-20', 149 , 83);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1159', 'Evangelina Barragán Castell' , '1996-01-29' , '234 W. Riverside St.' , '(357) 352-8928' , 'crandall@sbcglobal.net' , 'E' , '2008-12-14', 150 , 84);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1160', 'Florencia Domitila Castell Mendizábal' , '1995-12-05' , '916 E. Cactus Ave.' , '(240) 852-8613' , 'bester@outlook.com' , 'D' , '2017-04-10', 151 , 85);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1161', 'Javier Arellano-Murcia' , '1999-04-02' , '218 Lake St.' , '(403) 855-3645' , 'world@yahoo.ca' , 'C' , '2019-01-03', 152 , 86);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1162', 'Aurelia Sans Oller' , '1991-11-13' , '861 Oakland St.' , '(593) 356-1838' , 'staikos@sbcglobal.net' , 'D' , '2018-12-24', 153 , 87);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1163', 'Teodora Jerez Tormo' , '1994-09-22' , '8356 Bank Ave.' , '(433) 213-5953' , 'kludge@comcast.net' , 'A' , '2015-08-02', 153 , 88);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1164', 'Cornelio Noguera Lluch' , '1992-05-01' , '9754 Brookside Street' , '(669) 290-1610' , 'paulv@sbcglobal.net' , 'E' , '2017-03-30', 148 , 89);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1165', 'Carla Serna Montalbán' , '1999-05-05' , '8718 Chapel Drive' , '(472) 605-7532' , 'jgmyers@sbcglobal.net' , 'D' , '2018-06-07', 154 , 90);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1166', 'Macarena Valeria Feliu Mayol' , '1986-07-03' , '9029 Bellevue Drive' , '(287) 839-5879' , 'josephw@hotmail.com' , 'B' , '2014-01-22', 155 , 91);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1167', 'Jacinta Paz Domingo Rivas' , '1999-01-28' , '277 Halifax Dr.' , '(622) 903-6022' , 'sopwith@att.net' , 'C' , '2007-07-14', 156 , 92);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1168', 'Victor Manuel Tejedor Nevado' , '1986-11-06' , '7889 Chapel Street' , '(797) 421-8320' , 'sharon@att.net' , 'E' , '2010-03-28', 138 , 93);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1169', 'Blanca Molina Francisco' , '1977-06-02' , '487 East 6th St.' , '(478) 658-1534' , 'ntegrity@msn.com' , 'E' , '2007-08-09', 157 , 94);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1170', 'Jonatan Fonseca Quevedo' , '1981-12-22' , '51 Coffee St.' , '(671) 615-3675' , 'dgriffith@aol.com' , 'D' , '2012-05-19', 146 , 95);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1171', 'Humberto Vila' , '1995-03-03' , '9586 Sycamore Dr.' , '(713) 795-1422' , 'qrczak@verizon.net' , 'C' , '2010-08-18', 158 , 96);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1172', 'Isaura Fuentes Guardiola' , '1988-04-16' , '801 SW. Prairie St.' , '(201) 705-6808' , 'bruck@live.com' , 'B' , '2012-08-20', 159 , 97);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1173', 'Rufina Vargas Andres' , '1979-09-04' , '830 High Point Court' , '(322) 327-1204' , 'camenisch@yahoo.ca' , 'A' , '2008-12-27', 160 , 98);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1174', 'Reinaldo Barral Lago' , '1984-06-03' , '791 Silver Spear Street' , '(644) 469-5761' , 'mjewell@comcast.net' , 'E' , '2019-11-14', 161 , 99);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1175', 'Jose Ignacio Vila-Rios' , '1991-04-06' , '8882 Old Smith Ave.' , '(674) 440-0703' , 'daveed@optonline.net' , 'E' , '2020-04-23', 162 , 100);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1176', 'Roberto Cánovas Segura' , '1998-02-18' , '970 Myers Street' , '(640) 568-2625' , 'quantaman@hotmail.com' , 'D' , '2011-10-16', 162 , 101);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1452', 'Nicolasa de Verdugo' , '1982-01-10' , 'Suite 3' , '(247) 429-9544' , 'wetter@mac.com' , 'E' , '2012-02-21', 438 , 102);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1453', 'Evaristo Loreto Ferrer Mariño' , '1982-06-16' , '231 Marsh Lane' , '(843) 742-7308' , 'dwheeler@me.com' , 'B' , '2008-11-29', 439 , 103);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1454', 'Esmeralda Visitación Menéndez Alemán' , '1977-04-07' , '2 West Vine St.' , '(770) 393-3543' , 'mastinfo@live.com' , 'B' , '2018-03-17', 440 , 104);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1455', 'Manuel Melero Palomo' , '1998-05-23' , '62 Homewood Street' , '(949) 598-2771' , 'sblack@verizon.net' , 'C' , '2011-05-15', 441 , 105);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1456', 'Paca Verdejo Mayoral' , '1988-10-04' , '95 Delaware Dr.' , '(699) 746-9159' , 'ganter@verizon.net' , 'B' , '2013-07-24', 442 , 106);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1457', 'Regina del Parejo' , '1981-04-05' , '8133 Sycamore Street' , '(844) 950-9259' , 'dpitts@hotmail.com' , 'C' , '2018-06-12', 443 , 107);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1458', 'Águeda Giménez Serna' , '1998-05-26' , '8546 Ketch Harbour Ave.' , '(787) 302-4699' , 'sinkou@me.com' , 'C' , '2015-02-26', 444 , 108);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1459', 'Anastasio Montesinos García' , '1975-02-15' , '8683 South Drive' , '(952) 745-8983' , 'chronos@me.com' , 'E' , '2007-09-02', 445 , 109);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1460', 'Marisela Quintero Quintero' , '1978-12-23' , '17 Silver Spear Drive' , '(873) 828-7242' , 'csilvers@gmail.com' , 'E' , '2019-12-07', 440 , 110);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1461', 'Isaac Espada Madrigal' , '1974-07-01' , '60 Lower River St.' , '(943) 865-9127' , 'aardo@verizon.net' , 'B' , '2015-01-26', 446 , 111);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1462', 'Luciana Gaya Álvaro' , '1976-07-02' , '9661 Aspen St.' , '(668) 821-9575' , 'cantu@gmail.com' , 'A' , '2014-07-29', 447 , 112);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1463', 'Samanta Olmedo' , '1979-05-16' , '265 Mill Pond Dr.' , '(456) 829-6689' , 'jeffcovey@verizon.net' , 'A' , '2005-03-30', 440 , 113);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1464', 'Osvaldo Atilio Jover Herrera' , '1972-08-17' , '7440 Cherry Hill Court' , '(224) 518-9412' , 'lydia@gmail.com' , 'E' , '2018-05-21', 448 , 114);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1465', 'Tere Montenegro Expósito' , '1987-03-26' , '8958 Golf St.' , '(822) 587-3348' , 'ubergeeb@msn.com' , 'E' , '2011-11-01', 449 , 115);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1466', 'Nicodemo Alegre-Izquierdo' , '1978-03-08' , '654 S. Jones Street' , '(699) 407-0837' , 'jshirley@outlook.com' , 'A' , '2016-01-02', 450 , 116);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1467', 'Adelardo Chico-Cuesta' , '1993-11-01' , '735 E. Newbridge St.' , '(272) 549-4608' , 'niknejad@me.com' , 'B' , '2012-08-23', 451 , 117);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1468', 'Dorotea Diez Aznar' , '1983-02-14' , '607 Cherry Hill Street' , '(887) 405-0872' , 'punkis@sbcglobal.net' , 'B' , '2013-01-15', 445 , 118);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1469', 'Donato Noguera Mármol' , '1989-06-08' , '732 Prince Lane' , '(762) 491-8640' , 'skaufman@comcast.net' , 'B' , '2009-05-09', 445 , 119);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1470', 'María Del Carmen Benítez-Lozano' , '1998-03-29' , '27 Grandrose Ave.' , '(368) 723-8977' , 'kmiller@yahoo.com' , 'C' , '2009-08-01', 452 , 120);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1471', 'Roxana Sanjuan Nieto' , '1998-05-19' , '895 Sleepy Hollow St.' , '(698) 412-9077' , 'hoangle@verizon.net' , 'A' , '2013-12-17', 453 , 121);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1472', 'Primitiva Villalba Valenciano' , '1976-08-27' , '767 North Miller St.' , '(302) 256-8455' , 'miturria@aol.com' , 'E' , '2010-03-03', 440 , 122);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1473', 'Aura Manzano Pedrero' , '1984-02-05' , '7049 Water Road' , '(917) 817-2323' , 'bartlett@verizon.net' , 'B' , '2006-02-14', 37 , 123);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1474', 'Sabas Macario Murcia Quintanilla' , '1983-07-02' , '17 South Court' , '(272) 983-1657' , 'afifi@icloud.com' , 'A' , '2007-04-26', 454 , 124);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1475', 'Apolinar Falcón-Cadenas' , '1975-01-01' , '9198 West Grant Street' , '(334) 772-1013' , 'keiji@aol.com' , 'C' , '2009-12-23', 455 , 125);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1476', 'Horacio Gallego Matas' , '1996-10-29' , '50 Lawrence Rd.' , '(299) 772-6764' , 'kramulous@icloud.com' , 'E' , '2017-08-23', 456 , 126);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1477', 'Curro Cañellas-Abad' , '1982-12-28' , '858 Race St.' , '(229) 988-7982' , 'cantu@mac.com' , 'B' , '2013-02-18', 443 , 127);
+INSERT INTO ventasdb.cliente
+(pk_id_cliente,
+nombre,
+fecha_nacimiento,
+direccion,
+telefono,
+correo,
+grupo,
+fecha_alta,
+fk_id_localidad,
+fk_id_postal)
+VALUES
+('C1478', 'Julio Corominas' , '1977-12-13' , '93 East Longbranch Dr.' , '(583) 883-0821' , 'wojciech@live.com' , 'E' , '2012-04-30', 457 , 128);
+
+select * from cliente;
